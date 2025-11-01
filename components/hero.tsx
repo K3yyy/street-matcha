@@ -15,12 +15,14 @@ export function Hero() {
             <div className="container px-4 py-16 md:py-24">
                 <div className="mx-auto max-w-3xl text-center">
                     <h2 className="text-4xl md:text-6xl font-bold tracking-tight text-balance mb-6">
-                        Enjoy Fresh Matcha in Cambodia
+                        Enjoy Matcha with your soulmate
                     </h2>
                     <p className="text-lg md:text-xl text-muted-foreground text-pretty mb-8 leading-relaxed">
-                        Taste the smooth, rich flavor of authentic matcha made from high-quality Japanese green tea.
-                        Perfect for your café, office, or a refreshing moment at home — made fresh and delivered right here in Cambodia.
+                        Matcha has a quiet way of speaking to the soul. It tells us that love, like life, is built on small, mindful moments —
+                        the warmth of a hand, the patience of waiting, the joy found in something simple yet pure.
+                        We don’t need noise or rush to feel alive; sometimes all it takes is a cup of matcha and someone we care about to remind us what peace truly feels like.
                     </p>
+
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Button

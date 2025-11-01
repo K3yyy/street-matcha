@@ -52,7 +52,7 @@ export const products = [
         id: 8,
         name: "Couple Matcha Boba",
         price: 3.5,
-        image: "/couple-matcha-boba1.jpg",
+        image: "/couple-matcha-boba.jpg",
         category: "drink",
     },
 ]

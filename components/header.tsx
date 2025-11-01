@@ -3,6 +3,7 @@
 import { ShoppingCart, Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
+import Image from "next/image";
 
 export function Header() {
     const [cartCount] = useState(0)
@@ -15,6 +16,14 @@ export function Header() {
                         <Menu className="h-5 w-5" />
                         <span className="sr-only">Menu</span>
                     </Button>
+                    <Image
+                        src="https://png.pngtree.com/png-vector/20220812/ourmid/pngtree-green-tea-logo-illustration-leaf-logo-hot-vector-png-image_38503926.png"
+                        alt="Matcha logo"
+                        width={130}   // set your preferred width
+                        height={130}  // set your preferred height
+                        priority
+                        className="transform translate-x-8"// optional: preload for faster loading
+                    />
                     <h1 className="text-xl font-semibold tracking-tight">Street-Matcha</h1>
                 </div>
 
