@@ -3,12 +3,6 @@ export function Footer() {
         <footer className="border-t border-border bg-secondary/20">
             <div className="container px-4 py-12 md:py-16">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div className="md:col-span-2">
-                        <h3 className="text-xl font-semibold mb-4">Shop</h3>
-                        <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
-                            Premium quality products carefully curated for those who appreciate exceptional design and craftsmanship.
-                        </p>
-                    </div>
 
                     <div>
                         <h4 className="font-semibold mb-4">Quick Links</h4>
@@ -19,7 +13,7 @@ export function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
+                                <a href="https://www.facebook.com/share/19YHLjQMBx/?mibextid=wwXIfr" className="text-muted-foreground hover:text-accent transition-colors">
                                     Contact
                                 </a>
                             </li>
